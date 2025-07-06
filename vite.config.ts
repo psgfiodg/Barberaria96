@@ -69,8 +69,13 @@ export default defineConfig({
       includeAssets: [
         'favicon.ico', 
         'offline.html',
-        'logo.png',
-        '1024x1024.png',
+        'favicon-16x16.png',
+        'favicon-32x32.png',
+        'favicon-96x96.png',
+        'apple-icon*.png',
+        'android-icon*.png',
+        'android-icon*.jpg',
+        'ms-icon*.png',
         'staff/*.png'
       ],
       manifest: {
@@ -141,148 +146,148 @@ export default defineConfig({
         icons: [
           // Any purpose icons
           {
-            src: '/logo.png',
+            src: '/favicon-16x16.png',
             sizes: '16x16',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/favicon-32x32.png',
             sizes: '32x32',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-48x48.png',
             sizes: '48x48',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-72x72.png',
             sizes: '72x72',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/favicon-96x96.png',
             sizes: '96x96',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-144x144.png',
             sizes: '128x128',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-144x144.png',
             sizes: '144x144',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/apple-icon-152x152.png',
             sizes: '152x152',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '384x384',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: '/1024x1024.png',
+            src: '/android-icon-1024x1024.jpg',
             sizes: '1024x1024',
-            type: 'image/png',
+            type: 'image/jpeg',
             purpose: 'any'
           },
           // Maskable purpose icons (separate entries)
           {
-            src: '/logo.png',
+            src: '/favicon-16x16.png',
             sizes: '16x16',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/favicon-32x32.png',
             sizes: '32x32',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-48x48.png',
             sizes: '48x48',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-72x72.png',
             sizes: '72x72',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/favicon-96x96.png',
             sizes: '96x96',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-144x144.png',
             sizes: '128x128',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-144x144.png',
             sizes: '144x144',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/apple-icon-152x152.png',
             sizes: '152x152',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '384x384',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/logo.png',
+            src: '/android-icon-192x192.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: '/1024x1024.png',
+            src: '/android-icon-1024x1024.jpg',
             sizes: '1024x1024',
-            type: 'image/png',
+            type: 'image/jpeg',
             purpose: 'maskable'
           }
         ],
@@ -317,7 +322,7 @@ export default defineConfig({
             url: '/?shortcut=book',
             icons: [
               {
-                src: '/logo.png',
+                src: '/favicon-96x96.png',
                 sizes: '96x96',
                 type: 'image/png'
               }
@@ -330,7 +335,7 @@ export default defineConfig({
             url: '/om-oss?shortcut=about',
             icons: [
               {
-                src: '/logo.png',
+                src: '/favicon-96x96.png',
                 sizes: '96x96',
                 type: 'image/png'
               }
@@ -343,7 +348,7 @@ export default defineConfig({
             url: 'tel:036313222',
             icons: [
               {
-                src: '/logo.png',
+                src: '/favicon-96x96.png',
                 sizes: '96x96',
                 type: 'image/png'
               }
@@ -356,7 +361,7 @@ export default defineConfig({
             url: 'https://maps.google.com/?q=Västra+Storgatan+1,+553+16+Jönköping',
             icons: [
               {
-                src: '/logo.png',
+                src: '/favicon-96x96.png',
                 sizes: '96x96',
                 type: 'image/png'
               }

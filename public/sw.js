@@ -22,8 +22,9 @@ self.addEventListener('install', (event) => {
           OFFLINE_URL,
           '/',
           '/manifest.json',
-          '/logo.png',
-          '/1024x1024.png'
+          '/favicon.ico',
+          '/favicon-96x96.png',
+          '/android-icon-192x192.png'
         ]);
       }),
       // Skip waiting for immediate activation
