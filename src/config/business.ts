@@ -72,7 +72,7 @@ export const businessConfig: BusinessConfig = {
     darkColor: "#0f0f0f", // Pure black
     lightGold: "#f8e6a0" // Light gold
   },
-  logo: "/logo.png"
+  logo: "/favicon-96x96.png"
 };
 
 // Service categories and services configuration
